@@ -1,0 +1,17 @@
+h4 RSP
+
+p
+  h5 Choose something
+  select id='throw_options'
+    option value='rock' Rock
+    option value='scissors' Scissors
+    option value='paper' Paper
+    option value='hammer' Hammer (if you don't want to lose)
+
+p
+  button#play_button.btn.btn-primary data-href="#{games_path}" Play
+
+hr
+
+p
+  #result
